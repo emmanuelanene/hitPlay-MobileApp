@@ -2,10 +2,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hitplay/common/bloc/favorite_button/favorite_button_cubit.dart';
+import 'package:hitplay/common/bloc/favorite_button/favorite_button_state.dart';
 import 'package:hitplay/domain/entities/song/song.dart';
 
 import '../../../core/configs/theme/app_colors.dart';
-import '../../bloc/favorite_button/favorite_button_state.dart';
 
 class FavoriteButton extends StatelessWidget {
   final SongEntity songEntity;
@@ -23,6 +23,7 @@ class FavoriteButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocProvider(
       create: (context) => FavoriteButtonCubit(),
+
       child: BlocBuilder<FavoriteButtonCubit,FavoriteButtonState>(
         builder: (context, state) {
           if(state is FavoriteButtonInitial) {

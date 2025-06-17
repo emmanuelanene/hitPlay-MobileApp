@@ -1,7 +1,7 @@
 // ✅✅✅✅✅✅✅✅✅✅
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hitplay/common/bloc/favorite_button/favorite_button_state.dart';
-import 'package:hitplay/domain/usecases/add_or_remove_favorite_song.dart';
+import 'package:hitplay/domain/usecases/song/add_or_remove_favorite_song.dart';
 import 'package:hitplay/service_locator.dart';
 
 class FavoriteButtonCubit extends Cubit<FavoriteButtonState> {

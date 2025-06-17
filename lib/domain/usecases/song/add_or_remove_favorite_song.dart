@@ -1,9 +1,8 @@
-// ✅✅✅✅✅✅✅✅✅✅
 import 'package:dartz/dartz.dart';
 import 'package:hitplay/core/usecase/usecase.dart';
-import 'package:hitplay/domain/repository/song/song.dart';
-import 'package:hitplay/service_locator.dart';
 
+import '../../../service_locator.dart';
+import '../../repository/song/song.dart';
 
 class AddOrRemoveFavoriteSongUseCase implements UseCase<Either,String> {
   @override
