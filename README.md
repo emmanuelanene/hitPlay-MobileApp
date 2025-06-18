@@ -1,12 +1,12 @@
 # 🎧 HitPlay – A Flutter Music Streaming App
 
-![Home Page](assets/screenshots/lm-0.png)
+![Home Page](assets/previews/lm-0.jpg)
 
 **HitPlay** is a sleek music streaming app built with Flutter. It features authentication, light/dark mode support, tab-based content browsing, and an audio player – all powered by clean state management using Flutter BLoC/Cubit.
 
 ---
 
-![Audio Player](assets/screenshots/lm-1.png)
+![Audio Player](assets/previews/lm-1.jpg)
 
 ## 📱 Features
 
@@ -20,7 +20,7 @@
 
 
 ---
-![Splash Screen](assets/screenshots/dm-0.png)
+![Splash Screen](assets/previews/dm-0.jpg)
 ## 🧑‍💻 Tech Stack
 
 - **Flutter**
@@ -30,7 +30,7 @@
 
 ---
 
-![Get Started](assets/screenshots/dm-1.png)
+![Get Started](assets/previews/dm-1.jpg)
 ## 🚀 Getting Started
 
 ### Prerequisites
